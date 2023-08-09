@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "nodemon": "^3.0.1",
-    "socket.io": "^4.7.1"
-  },
   "name": "server",
   "version": "1.0.0",
   "description": "Video_Application",
@@ -12,5 +8,9 @@
     "start": "nodemon index.js"
   },
   "author": "Kiran",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.1"
+  }
 }
