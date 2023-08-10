@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.vid-title{
+  margin: -24px;
+  padding: 0;
+  background: linear-gradient(90deg, rgba(3,228,116,1) 0%, rgba(24,119,231,1) 100%);
+  width: 1390px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vid-title h2{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 28px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#heading1{
+   margin-top: 20px;
+   text-align: center;
+}
+
+.fcontainer{
+  background: #c0d8f7;
+  width: 500px;
+  height: 300px;
+  border-radius: 6%;
+  margin-left: 420px;
+  border: 2px solid darkcyan;
+  box-shadow: 20px 20px 10px lightgray;
+}
+
+input{
+  width: 200px;
+  height: 25px;
+  margin-left: 140px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+label.ibox{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    font-size: 20px; 
+    height: 30px;
+    width: 80px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.btn1{
+  font-size: 20px; 
+  height: 30px;
+  width: 140px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+button{
+  font-size: 20px; 
+  height: 30px;
+  width: 80px;
+  margin-left: 640px;
+  margin-top: 20px;
+}
+
+.container{
+    background-color: #c0d8f7;
+    width: 100vw;
+    height: 1800px;
 }
